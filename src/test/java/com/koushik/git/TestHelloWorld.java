@@ -33,4 +33,11 @@ public class TestHelloWorld {
 		thrown.expectMessage("Input cannot be empty");
 		helloWorld.sayHello(null);
 	}
+	
+	@Test
+	public void testSayHelloWithEmptyName() {
+		thrown.expect(IllegalArgumentException.class);
+		thrown.expectMessage("Input cannot be empty");
+		helloWorld.sayHello("");
+	}
 }
