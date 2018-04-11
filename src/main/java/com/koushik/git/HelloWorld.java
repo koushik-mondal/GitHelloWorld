@@ -17,5 +17,9 @@ public class HelloWorld {
 		
 		return "Hello " + input;
 	}
+	
+	public void checkBranch() {
+		System.out.println("JUst checking the branch functionality");
+	}
 
 }
