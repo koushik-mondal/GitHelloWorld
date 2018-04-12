@@ -10,6 +10,7 @@ public class TestHelloWorld {
 	
 	String input = "John";
 	String message = "Hello John";
+	String notused = "False String";
 	HelloWorld helloWorld = new HelloWorld();
 	
 	@Rule
